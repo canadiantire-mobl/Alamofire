@@ -30,7 +30,6 @@ let package = Package(
     products: [
         .library(
             name: "Alamofire",
-            type: .dynamic,
             targets: ["Alamofire"])
     ],
     targets: [
@@ -38,5 +37,5 @@ let package = Package(
             name: "Alamofire",
             path: "Source")
     ],
-    swiftLanguageVersions: [.v4, .v5]
+    swiftLanguageVersions: [.v5]
 )
